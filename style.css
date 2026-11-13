@@ -132,14 +132,14 @@ h3 {
 }
 
 
-#About p {
+.about p {
     max-width: 65ch;
 }
 
 
 aside,
 article,
-#Contact {
+.contact {
     padding: 24px;
     background: var(--surface);
     border: 1px solid var(--border);
@@ -189,7 +189,7 @@ article img {
 
 
 article p,
-#form-info,
+.form-info,
 .footer-content p:not(.footer-name),
 .footer-bottom small {
     color: var(--muted);
@@ -323,6 +323,10 @@ footer address {
     overflow-wrap: anywhere;
 }
 
+footer address a {
+    display: block;
+}
+
 
 .footer-bottom {
     align-items: center;
@@ -355,8 +359,8 @@ footer address {
         grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
     }
 
-    #Projects,
-    #Contact {
+    .projects,
+    .contact {
         grid-column: 1 / -1;
     }
 
