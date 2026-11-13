@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ahmad's Portfolio with an introduction, projects and contact details.">
+
+        <title> Ahmad | Portfolio </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <p>Ahmads Portfolio</p> 
+            <nav aria-label="Main nav">
+                <ul>
+                    <li><a href="#About">About Me</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+            <section id="About">
+
+                <h1>Hello And Welcome to my page I'm Ahmad</h1>
+                <p>I am currently studying blockchain development and have a long standing interest in IT and software development, I studied 
+                    frontend development from 2022-2024. I enjoy exploring how blockchain technology works and the new ways it can be used.
+                </p>
+                <p>
+                    I have worked on web projects involving design and backend integrations. Technology is constantly evolving, which is what makes it 
+                    exciting to me. I want to keep learning, develop my skills and gain more practical experience.
+                </p>
+            </section>
+
+            <aside>
+                <h2>Education and interests</h2>
+                <ul>
+                    <li>Currently studying blockchain development</li>
+                    <li>Studied frontend development from 2022 to 2024</li>
+                    <li>Interested in web development and blockchain technology</li>
+                    <li>Enjoy working with design and API integrations</li>
+                </ul>
+            </aside>
+
+            <section id="Projects">
+                <h2> My Projects</h2>
+
+                <div class="project-list">
+                    <article>                     
+                        <h3>Umrah Bröderna</h3>
+
+                <p> A team project for a website presenting Umrah Travel packages to Saudi Arabia. We divided the pages 
+                    between us and worked on the design together. My contribution included page development and shared design work.
+                </p>
+                <a href="https://umrahbroderna.se/">
+                    Visit Umrah Bröderna
+
+                </a>
+
+            </article> 
+
+            <article>
+                <h3>Utravel</h3>
+                <p>
+                    A travel website developed as a team project, where I contributed to the design and worked on backend integrations for payments,
+                    email and flight searches using external services, including Stripe and the Duffel API.
+                </p>
+                <a href="https://utravel.se/">
+                    Visit Utravel
+                </a>
+            </article>
+
+            <article>
+
+                <h3>My Portfolio</h3>
+
+            <img src="images/skiss.png" alt="Portfolio layout sketch showing sections and columns on desktop and mobile version."
+               width="2304"
+               height="1296"
+               loading="lazy"
+               >
+
+               <p>
+                A personal portfolio that I'm building with HTML and CSS.
+                The focus is on semantic HTML, responsive design and accessibility, and control with Git and Github.
+               </p>
+
+            </article>
+
+                </div>
+         </section>
+
+         <section id="Contact">
+            <h2> Contact Me</h2>
+            <p id="form-info">
+                No function added (sending is disabled, no service is connected)
+            </p>
+
+            <form aria-describedby="form-info">
+                <div>
+                    <label for="name">Name</label>
+                    <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="name"
+                    required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    >
+
+
+                </div>
+            </form>
+         </section>
+            
+        </main>
+    </body>
+</html>
