@@ -54,7 +54,7 @@ Resultat och skärmbilder läggs till efter tester med:
 
     Kontroll av index.html med Nu HTML Checker, utan anmärkning
 
-    ![alt resultat av kontroll från HTML Checker](image-1.png)
+    ![alt resultat av kontroll från HTML Checker](image.png)
 
 - Firefox Accessibility Tools
 
