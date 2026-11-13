@@ -22,12 +22,27 @@ Min planerade layout för mobil och dator
 
 
 
-## Granskning:
+### Granskning:
 Resultat och skärmbilder läggs till efter tester med:
+
 - Chrome Lighthouse
 
+    Kontroll av sidan med Chrome Lighthouse i mobil läge, resultat 100/100 för accessibility
+    Manuella kontroller behövs också eftersom automatiska tester inte upptäcker alla tillgänglighetsproblem
+
+    ![alt resultat av kontroll från Chrome Lighthouse Mobil läge.](image-2.png)
+
 - W3C HTML Validator
+
     Kontroll av index.html med Nu HTML Checker, utan anmärkning
-![alt resultat av testet från HTML Checker](image-1.png)
+![alt resultat av kontroll från HTML Checker](image-1.png)
 
 - Firefox Accessibility Tools
+
+    Kontroll av sidan med Firefox Accessibility Tools utan anmärkning, inga rapporterade problem.
+
+    Manuell testning - Shift + Tab: 
+    Det gick att flytta bakåt mellan länkar och formulärfält.
+
+    Space: Fungerade att markera och avmarkera checkboxen.
+    ![alt resultat av kontroll från Mozilla firefox Accessibility tools](image-3.png)
