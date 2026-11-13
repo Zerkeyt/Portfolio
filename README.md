@@ -25,5 +25,9 @@ Min planerade layout för mobil och dator
 ## Granskning:
 Resultat och skärmbilder läggs till efter tester med:
 - Chrome Lighthouse
+
 - W3C HTML Validator
+    Kontroll av index.html med Nu HTML Checker, utan anmärkning
+![alt resultat av testet från HTML Checker](image-1.png)
+
 - Firefox Accessibility Tools
