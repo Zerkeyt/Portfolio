@@ -2,10 +2,24 @@
 Inlämningsuppgift 1 - Portfolio BCU26D HTML&CSS
 
 
-Denna sida är ett personligt portfolio.
-Sidan ska innehålla en presentation, tre projekt och ett kontaktformulär.
+Denna sida är mitt personliga portfolio.
+Sidan innehåller en presentation, tre projekt och ett kontaktformulär.
 
-Layouten skall vara responsiv för mobil, surfplatta och dator.
+Layouten är responsiv för mobil, surfplatta och dator.
+
+## Design och tillgänglighet
+
+Jag har använt mig av CSS variabler för återkommande färger.
+Grid och flexbox anpassar layouten till olika skärmstorlekar.
+Sidan har semantiska HTML-element, etiketter för formulärfälten och synliga fokusmarkeringar för tangentbordsnavigering.
+
+## Kontaktformulär
+
+Formuläret är en HTML övning utan kopplad meddelandetjänst, därför är "skicka knappen" avstängd
+
+## Kör Projektet
+
+För att köra projektet öppna index.html i webbläsaren eller starta sidan med Live Server i VS code.
 
 ## Tekniker:
 
@@ -35,7 +49,8 @@ Resultat och skärmbilder läggs till efter tester med:
 - W3C HTML Validator
 
     Kontroll av index.html med Nu HTML Checker, utan anmärkning
-![alt resultat av kontroll från HTML Checker](image-1.png)
+
+    ![alt resultat av kontroll från HTML Checker](image-1.png)
 
 - Firefox Accessibility Tools
 
@@ -45,4 +60,5 @@ Resultat och skärmbilder läggs till efter tester med:
     Det gick att flytta bakåt mellan länkar och formulärfält.
 
     Space: Fungerade att markera och avmarkera checkboxen.
+
     ![alt resultat av kontroll från Mozilla firefox Accessibility tools](image-3.png)
