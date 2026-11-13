@@ -2,7 +2,7 @@
 Inlämningsuppgift 1 - Portfolio BCU26D HTML&CSS
 
 
-Denna sida är mitt personliga portfolio.
+Denna sida är min personliga portfolio.
 Sidan innehåller en presentation, tre projekt och ett kontaktformulär.
 
 Layouten är responsiv för mobil, surfplatta och dator.
@@ -33,6 +33,10 @@ Min planerade layout för mobil och dator
 ![Skiss för mobil och dator](images/skiss.png)
 
 ## Publicerad sida:
+
+[Live-sida](https://zerkeyt.github.io/Portfolio/)
+
+[Projekt koden på GitHub](https://github.com/Zerkeyt/Portfolio)
 
 
 
